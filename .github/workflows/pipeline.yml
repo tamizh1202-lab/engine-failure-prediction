@@ -29,5 +29,5 @@ jobs:
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
         run: |
-          cd engine_failure_prediction
-          python predictive_maintenance/data/data_register.py
+          cd predictive_maintenance
+          python data/data_register.py
